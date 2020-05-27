@@ -5,15 +5,15 @@ server:
 spring:
     # 环境 dev|test|pro
     profiles:
-        active: test
+        active: dev
     # jackson时间格式化
     jackson:
         time-zone: GMT+8
         date-format: yyyy-MM-dd HH:mm:ss
     redis:
-        host: localhost
+        host: 111.229.24.31
         port: 6379
-        password:       # 密码（默认为空）
+        password: 123456      # 密码（默认为空）
     servlet:
         multipart:
             maxFileSize: 104857600 #100MB
